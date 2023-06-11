@@ -1,7 +1,6 @@
 import discord
 import random as r
 from discord.ext import commands
-from settings import settings
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -38,4 +37,4 @@ async def eco_tip(ctx):
 async def decomposition(ctx):
     await ctx.send('Период разложения отходов:\n   Органические отходы(такие как кожура банана или огрызок яблока) - 2 месяца\n    Картон - 1 месяц\n    Бумага - 1.5 месяца\n    Окурок - 5 лет\n    Ткань - 40 лет\n    Пенопласт - 50 лет\n    Резина - 40 лет\n    Фанера - 1-3 года\n    Консервная банка - 50 лет\n    Пластик - 400 лет\n    Алюминий - 500 лет\n    Стекло - тысячи лет')
 
-bot.run(settings["TOKEN"])
+bot.run('TOKEN')
