@@ -1,0 +1,4 @@
+settings = {
+    "prefix": "eco-",
+    "TOKEN": ""
+}
